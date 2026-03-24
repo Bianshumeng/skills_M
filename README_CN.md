@@ -3,7 +3,7 @@
 > **一款用于管理 AI 编程助手技能（Skills）的统一桌面应用。**
 > 无缝组织、同步和共享 **Claude Code、Codex、Opencode** 及其他 AI 工具的技能。
 
-![Version](https://img.shields.io/badge/version-1.1.3-blue) ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey) ![Tech](https://img.shields.io/badge/built%20with-Tauri%202.0%20%2B%20React%2019-orange)
+![Version](https://img.shields.io/badge/version-2.0.0-blue) ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey) ![Tech](https://img.shields.io/badge/built%20with-Tauri%202.0%20%2B%20React%2019-orange)
 
 [English README](./README.md)
 
@@ -80,7 +80,7 @@ WEBKIT_DISABLE_COMPOSITING_MODE=1 ./Skills-Manager_1.0.1_amd64.AppImage
 
 - [x] 核心功能（软链接同步、多工具支持等）。
 - [ ] 社区中心（Community Hub）– 分享和下载社区贡献的 Skills 等。
-- [ ] 云端同步，更换设备后也可一键迁移原有的 Skills 等。
+- [x] 云端同步，更换设备后也可一键迁移原有的 Skills 等。
 - [ ] 插件系统，支持更多 AI 工具扩展。
 - [ ] 集成 AI 对话界面，直接在应用内测试 Skills。
 
