@@ -98,6 +98,7 @@ WEBKIT_DISABLE_COMPOSITING_MODE=1 ./Skills-Manager_1.0.1_amd64.AppImage
 | 微信赞赏码 | 支付宝赞赏码 |
 |---|---|
 | <img src="https://image.freeourdays.com/2024/WechatIMG276.jpg" alt="微信赞赏码" height="300" /> | <img src="https://image.freeourdays.com/zfb.jpg" alt="支付宝赞赏码" height="300" /> |
+| <img src="https://picui.ogmua.cn/s1/2026/03/26/69c53f4c5355c.webp" alt="微信群" height="300" /> | <img src="https://picui.ogmua.cn/s1/2026/03/26/69c53f4bb71c1.webp" alt="飞书群" height="300" /> |
 
 或通过 Ko-fi 支持：[ko-fi.com/yeheboo](https://ko-fi.com/yeheboo)
 
