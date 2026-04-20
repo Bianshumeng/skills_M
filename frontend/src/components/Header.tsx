@@ -5,14 +5,16 @@ interface HeaderProps {
 
 export function Header({ dark, onToggle }: HeaderProps) {
   return (
-    <header className="h-12 flex items-center justify-between px-5 border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-[#242424] shrink-0">
+    <header className="flex h-12 shrink-0 items-center justify-between border-b border-gray-200 bg-white px-5 transition-[background-color,border-color,color] duration-200 dark:border-gray-800 dark:bg-[#242424]">
       <span className="text-sm font-semibold tracking-wide text-gray-700 dark:text-gray-200">
-        Skills Manager
+        技能预选面板
       </span>
       <button
+        type="button"
         onClick={onToggle}
-        className="w-8 h-8 flex items-center justify-center rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
-        aria-label="Toggle theme"
+        className="flex h-10 w-10 items-center justify-center rounded-md transition-[background-color,color,box-shadow] duration-200 hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:hover:bg-gray-800 dark:focus-visible:ring-offset-[#242424]"
+        aria-label={dark ? '切换到浅色主题' : '切换到深色主题'}
+        aria-pressed={dark}
       >
         {dark ? (
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
